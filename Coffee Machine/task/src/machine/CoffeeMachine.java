@@ -14,9 +14,6 @@ public class CoffeeMachine {
         Scanner scanner = new Scanner(System.in);
         boolean flag = true;
         while (flag) {
-           // printState();
-
-
             System.out.println("Write action (buy, fill, take, remaining, exit):");
             String action = scanner.next();
 
